@@ -206,7 +206,7 @@ int main()
         cout << " <> ";
         gets(input);
         string lowercaseInput = tolower(input); // converting input in lowercase
-        cout << endl;
+        cout <<endl;
         if (lowercaseInput == lineQ_1)
         {
             cout << lineD_1 << endl;
@@ -280,6 +280,7 @@ int main()
         {
             cout << "  > Sorry I can't understand:(..!\n";
         }
+        cout<<endl;
     }
 
     getch();
